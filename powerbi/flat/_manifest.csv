@@ -1,0 +1,18 @@
+﻿Metric,Value
+cases_analysed,373446.0000
+source_rows_ingested,5260306.0000
+duplicate_and_retracted_rows_removed,46784.0000
+distinct_ingredients,40.0000
+distinct_reactions,79.0000
+pairs_evaluated,3160.0000
+signals_detected,33.0000
+signals_ever_flagged,36.0000
+transient_crossings,3.0000
+signals_already_labelled,27.0000
+dq_checks_passed,12.0000
+dq_checks_total,12.0000
+drug_map_coverage_pct,100.0000
+observation_window,2019Q1 to 2025Q1
+signals_planted,43.0000
+novel_signals_found,6.0000
+detection_floor_pct,7.5000

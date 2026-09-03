@@ -1,0 +1,13 @@
+﻿CheckID,Assertion,Severity,Measured,Threshold,Result
+DQ-000,analysis population is non-empty,FAIL,373446.0000,1.0000,PASS
+DQ-001,case_master contains no duplicate caseid,FAIL,0.0000,0.0000,PASS
+DQ-002,no retracted case survived into case_master,FAIL,0.0000,0.0000,PASS
+DQ-003,surviving version equals MAX(caseversion) for its case,FAIL,0.0000,0.0000,PASS
+DQ-004,share of surviving cases with zero reaction terms,FAIL,0.0000,1.0000,PASS
+DQ-005,share of surviving cases with zero drug rows,FAIL,0.0000,1.0000,PASS
+DQ-006,stg_drug rows with val_vbm outside its closed domain (field shift),WARN,0.8894,6.0000,PASS
+DQ-006b,stg_drug rows whose route holds a numeric val_vbm value (shift corroboration),WARN,3.0039,6.0000,PASS
+DQ-007,share of cases with unknown or missing sex,WARN,11.9487,40.0000,PASS
+DQ-008,share of cases whose event date is absent or not full precision,WARN,38.0494,55.0000,PASS
+DQ-009,share of drug rows with an empty drugname,WARN,0.0000,2.0000,PASS
+DQ-010,cases reporting age > 120 years,WARN,0.0000,500.0000,PASS

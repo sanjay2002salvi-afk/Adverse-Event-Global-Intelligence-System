@@ -1,0 +1,27 @@
+# Local database credentials
+config/db.env
+
+# Generated / downloaded data
+data/
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node (presentation rebuild only)
+node_modules/
+docs/presentation/package-lock.json
+docs/presentation/package.json
+
+# Python packaging
+*.egg-info/
+dist/
+build/
